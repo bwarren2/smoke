@@ -90,22 +90,14 @@ In Ubuntu, you might install dependencies thusly:
 
 And the python libraries, preferably in your virtualenv:
 
-    $ pip install cython # http://bit.ly/1dd0JRI for problems with virtualenv
-    $ pip install palm
-    $ pip install python-snappy
+    pip install cython python-snappy git+https://github.com/bumptech/palm#master
 
-Next, you must install `palm` 0.1.9 from source--it's not in PyPI, so you can't
-get it with pip:
+Finally, install `smoke`:
 
-    $ git clone https://github.com/bumptech/palm.git && cd palm
-    $ python setup.py install
-
-Finally, install `smoke` by cloning it:
-
-    $ git clone https://github.com/skadistats/smoke.git && cd smoke
-    $ python setup.py install
+    pip install git+https://github.com/skadistats/smoke#master
 
 That's it! You're good to go.
+
 
 
 # Hacking
