@@ -99,7 +99,6 @@ Finally, install `smoke`:
 That's it! You're good to go.
 
 
-
 # Hacking
 
 If you want to hack on smoke, you might consider doing this instead of the
