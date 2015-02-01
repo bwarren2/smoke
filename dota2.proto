@@ -969,6 +969,12 @@ enum EDotaUserMessages {
 	DOTA_UM_PlayerMMR = 126;
 	DOTA_UM_AbilitySteal = 127;
 	DOTA_UM_CourierKilledAlert = 128;
+	DOTA_UM_EnemyItemAlert = 129;
+	DOTA_UM_StatsMatchDetails = 130;
+	DOTA_UM_MiniTaunt = 131;
+	DOTA_UM_BuyBackStateAlert = 132;
+	DOTA_UM_QuickBuyAlert = 133;
+	DOTA_UM_StatsHeroDetails = 134;
 }
 
 enum DOTA_CHAT_MESSAGE {
