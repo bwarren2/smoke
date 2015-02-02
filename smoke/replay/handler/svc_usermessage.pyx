@@ -57,7 +57,11 @@ cdef dict USER_MESSAGE_BY_KIND = {
   122: 'VoteEnd',                 123: 'BoosterState',
   124: 'WillPurchaseAlert',       125: 'TutorialMinimapPosition',
   126: 'PlayerMMR',               127: 'AbilitySteal',
-  128: 'CourierKilledAlert'
+  128: 'CourierKilledAlert',      129: 'EnemyItemAlert',
+  130: 'StatsMatchDetails',       131: 'MiniTaunt',
+  132: 'BuyBackStateAlert',       133: 'QuickBuyAlert',
+  134: 'StatsHeroDetails'
+
 }
 
 
