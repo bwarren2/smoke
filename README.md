@@ -94,7 +94,8 @@ And the python libraries, preferably in your virtualenv:
 
 Finally, install `smoke`:
 
-    pip install git+https://github.com/bwarren2/smoke#master
+    git clone https://github.com/bwarren2/smoke#master && cd smoke
+    python setup.py install
 
 That's it! You're good to go.
 
